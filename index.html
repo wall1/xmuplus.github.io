@@ -1,0 +1,42 @@
+---
+layout: index
+title: Home
+---
+
+{% include imgtop.html %}
+<hr style="margin-top: -1rem; border-top: 1px solid #e1e1e1;" />
+
+  <span class="news"><span style="color:#bf616a;font-weight:bold">New!</span></span>
+
+	<span class="news"><span style="color:#bf616a;font-weight:bold;">Ⅰ. </span><a href="/the-first-half-of-2018/" style="font-weight: bold;font-size:15px;">The collection of <i>The Economist</i> PDF 2018</a></span>
+  <span class="news"><span style="color:#bf616a;font-weight:bold">Ⅱ. </span> <a href="/winter-solstice/">2016: Year in review</a></span>
+
+  <span class="news"><span style="color:#bf616a;font-weight:bold">Ⅲ. </span> <a href="https://getmyte.com/audio/?from=xmuplus.github.io" target="_blank"><span>Audio editions</span></a></span>
+
+
+<style>
+	.news {
+     font-size: 14px;
+	}
+</style>
+<hr style="margin-top: 1rem; border-top: 1px solid #e1e1e1;" />
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+    <span class="post-date"><i class="fa fa-calendar" aria-hidden="true">
+    </i> 
+    {{ post.date | date_to_string }}</span>
+    {{ post.excerpt }}
+    <!--Jekyll "Read more" Link-->
+    {% if post.excerpt != post.content %}
+        <p><a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-facebook-square" aria-hidden="true"></i>ree Download</a></p>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+{% include pagination.html %}

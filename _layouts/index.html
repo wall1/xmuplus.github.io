@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  {% include head_index.html %}
+  <body>
+    {% include sidebar.html %}
+    <ul id="color-bars"><li id="color-1"></li><li id="color-2"></li><li id="color-3"></li><li id="color-4"></li><li id="color-5"></li><li id="color-6"></li></ul>
+  <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a class="header-logo-invertocat" title="Welcome!" href="{{ site.baseurl }}/">
+            <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+              {{ site.title }}
+            </a>
+            <small>&nbsp;{{ site.tagline }}</small>
+            <div class="headicons">
+                <small><a href="/about/" title="About"><i class="iconm iconm-user"></i></a></small>
+                <small><a href="/books/" title="Books"><i class="iconm iconm-quill"></i></a></small>
+                <small><a href="/archive/" title="Codes"><i class="iconm iconm-embed2"></i></a></small>
+                <small><a href="http://weibo.com/u/6035048806" rel="me" title="Weibo" target="_blank" rel="nofollow"><i class="iconm iconm-sina-weibo"></i></a></small>
+                <small><a href="http://mocun.me/comment/" title="Like" target="_blank" rel="nofollow"><i class="iconm iconm-heart footer_v2__loveheart"></i></a></small>
+            </div>              
+          </h3>
+        </div>
+      </div>
+      <div class="container content">
+        {{ content }}
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    <script src="https://paypal.b0.upaiyun.com/public/js/jquery/public.js"></script> 
+    <script src="https://paypal.b0.upaiyun.com/public/js/prettify/prettify.js"></script>
+    <script type="text/javascript">
+    	window.prettyPrint && window.prettyPrint()
+    </script>
+  	<script>
+  	POWERMODE.colorful = true; // make power mode colorful
+  	POWERMODE.shake = false; // turn off shake
+  	document.body.addEventListener('input', POWERMODE);
+  	</script> 
+    {% include statistics.html %}
+	</body>
+
+  <style type="text/css">
+    body {
+      margin: 0;
+      background-image: url(/public/assets/bg-bottom.svg);
+      background-position: center bottom;
+      background-repeat: no-repeat;
+    }
+  </style>
+
+</html>

@@ -1,0 +1,201 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 style="margin-bottom: 1rem;">{{ page.title }}</h1>
+  <span class="post-date"><i class="fa fa-calendar""></i> Dec 21 2016</span>
+  {% include meta_info.html %} 
+  {{ content }}
+
+  <span class="post-date" style="text-align: right; margin-top:1.5rem; margin-bottom: -.25rem;">Last edited on Dec 21, 2016</span>
+
+</div>
+
+
+<!--Related posts-->
+{% if site.related_posts.size > 0 %}
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    <!--related-->
+    {% for post in site.related_posts limit:3 %}
+      <li>
+        <h3>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | date_to_string }}</small>
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+
+<div class="ds-thread" id="ds-thread">
+    <div id="ds-reset">
+        <div class="ds-comments-info">
+            <div class="ds-sort"><a class="ds-order-desc ds-current">Newest</a><a class="ds-order-asc">Oldest</a><a class="ds-order-hot">Best</a></div>
+            <ul class="ds-comments-tabs">
+                <li class="ds-tab"><a class="ds-comments-tab-duoshuo ds-current" href="javascript:void(0);"><span class="ds-highlight">12</span> comments</a></li>
+            </ul>
+        </div>
+        <ul class="ds-comments">
+            <li class="ds-post">
+                <div class="ds-post-self">
+                    <div class="ds-avatar">
+                        <a><img src="/public/img/duoshuo/姚松涛.jpg" alt="姚松涛"></a>
+                    </div>
+                    <div class="ds-comment-body">
+                        <div class="ds-comment-header"><a class="ds-user-name ds-highlight">姚松涛</a><span class="this_ua browser Chrome">Chrome | 56.0.2924.87</span><span class="this_ua platform Windows">Windows 7</span></div>
+                        <p>加油！</p>
+                        <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2017-03-29T11:08:20+08:00">3月29日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                    </div>
+                </div>
+            </li>
+            <li class="ds-post">
+                <div class="ds-post-self">
+                    <div class="ds-avatar">
+                        <a><img src="/public/img/duoshuo/一只食草鱼.jpg" alt="一只食草鱼"></a>
+                    </div>
+                    <div class="ds-comment-body">
+                        <div class="ds-comment-header"><a class="ds-user-name ds-highlight">一只食草鱼</a><span class="this_ua browser Chrome">Chrome | 45.0.2454.101</span><span class="this_ua platform Windows">Windows 8.1</span></div>
+                        <p>很庆幸能在贴吧发现博主 18考研心里实在很慌 英语不是很好 啃了三四篇TE的文章后 很疲惫啊 词汇都是看着眼熟却不知道他的意思 只能一个一个查 好在会啃下去 最后 谢谢博主的分享~~比心</p>
+                        <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2017-03-03T18:46:19+08:00">3月3日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                    </div>
+                </div>
+            </li>
+            <li class="ds-post">
+                <div class="ds-post-self">
+                    <div class="ds-avatar">
+                        <a><img src="/public/img/duoshuo/Hypothesis.jpg" alt="Hypothesis"></a>
+                    </div>
+                    <div class="ds-comment-body">
+                        <div class="ds-comment-header"><a class="ds-user-name ds-highlight">Hypothesis</a><span class="this_ua browser Edge">Edge | 14.14393</span><span class="this_ua platform Windows">Windows 10</span></div>
+                        <p>谢谢撸主的分享~~~爱你么么</p>
+                        <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2017-02-27T13:49:18+08:00">2月27日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                    </div>
+                </div>
+                <ul class="ds-children">
+                    <li class="ds-post">
+                        <div class="ds-post-self">
+                            <div class="ds-avatar">
+                                <a><img src="/public/img/duoshuo/268063.jpg" alt="gulangyu"></a>
+                            </div>
+                            <div class="ds-comment-body">
+                                <div class="ds-comment-header"><a class="ds-user-name ds-highlight">gulangyu</a><span class="this_ua browser Firefox">Firefox | 52.0</span><span class="this_ua platform Mac OS">Mac OS 10.11</span></div>
+                                <p>害羞.jpg</p>
+                                <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2017-03-04T14:14:37+08:00">3月4日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="ds-post">
+                <div class="ds-post-self">
+                    <div class="ds-avatar">
+                        <a><img src="/public/img/duoshuo/渠航.jpg" alt="渠航"></a>
+                    </div>
+                    <div class="ds-comment-body">
+                        <div class="ds-comment-header"><a class="ds-user-name ds-highlight">渠航</a><span class="this_ua browser Chrome">Chrome | 49.0.2623.22</span><span class="this_ua platform Windows">Windows 8</span></div>
+                        <p>非常感谢博主的工作，有个这个稳定更新TE的地方，会一直支持你！</p>
+                        <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2017-02-06T17:38:19+08:00">2月6日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                    </div>
+                </div>
+            </li>
+            <li class="ds-post">
+                <div class="ds-post-self">
+                    <div class="ds-avatar">
+                        <a><img src="/public/img/duoshuo/我会气功_能气死人.jpg" alt="我会气功_能气死人"></a>
+                    </div>
+                    <div class="ds-comment-body">
+                        <div class="ds-comment-header"><a class="ds-user-name ds-highlight">我会气功_能气死人</a><span class="this_ua browser Maxthon">Maxthon | 5.0.1.3000</span><span class="this_ua platform Windows">Windows 7</span></div>
+                        <p>博主很赞。我是法科毕业，大学时就一直对python感兴趣，但每次都是失败告终，值得庆幸的是每次都会进步一点。由TE认识到博主，谢谢博主的努力，也祝博主新的一年心想事成！（我用chrome无法登陆，不知道因为什么）</p>
+                        <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2017-01-13T09:52:30+08:00">1月13日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                    </div>
+                </div>
+                <ul class="ds-children">
+                    <li class="ds-post">
+                        <div class="ds-post-self">
+                            <div class="ds-avatar">
+                                <a><img src="/public/img/duoshuo/268063.jpg" alt="gulangyu"></a>
+                            </div>
+                            <div class="ds-comment-body">
+                                <div class="ds-comment-header"><a class="ds-user-name ds-highlight">gulangyu</a><span class="this_ua browser Chrome">Chrome | 52.0.2743.116</span><span class="this_ua platform Mac OS">Mac OS 10.11.6</span></div>
+                                <p>你好，这个评论是多说提供的，有时确实会登陆不上，刷新一下就好。Python 确实挺强的，用处很广，像爬虫、数据处理等等。学一样新的、自己感兴趣的东西，确实会遇到你说的情况。我觉得不用太困扰，追随内心，断断续续地学在我看来也是一种坚持，到某一天也许就会突然豁然开朗。e.g. 一直想学C，想学又抵触，断续好多次。去年小学期终于学完一遍，学得还蛮开心。祝好！</p>
+                                <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2017-01-13T12:00:46+08:00">1月13日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="ds-post">
+                <div class="ds-post-self">
+                    <div class="ds-avatar">
+                        <a><img src="/public/img/duoshuo/克小米.jpg" alt="克小米"></a>
+                    </div>
+                    <div class="ds-comment-body">
+                        <div class="ds-comment-header"><a class="ds-user-name ds-highlight">克小米</a><span class="this_ua browser Mobile Safari">Mobile Safari | 10.0</span><span class="this_ua platform iOS">iOS 10.2</span></div>
+                        <p>哦，牛逼。确实很赞。</p>
+                        <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2017-01-02T10:44:10+08:00">1月2日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                    </div>
+                </div>
+            </li>
+            <li class="ds-post">
+                <div class="ds-post-self">
+                    <div class="ds-avatar">
+                        <a><img src="/public/img/duoshuo/坚定不移的户爷.jpg" alt="坚定不移的户爷"></a>
+                    </div>
+                    <div class="ds-comment-body">
+                        <div class="ds-comment-header"><a class="ds-user-name ds-highlight">坚定不移的户爷</a><span class="this_ua browser Chrome">Chrome | 55.0.2859.0</span><span class="this_ua platform Windows">Windows 7</span></div>
+                        <p>你做的很好，我现在热能研究生在读，很想自学计算机，还是没有勇气</p>
+                        <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2016-12-26T13:23:21+08:00">2016年12月26日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                    </div>
+                </div>
+                <ul class="ds-children">
+                    <li class="ds-post">
+                        <div class="ds-post-self">
+                            <div class="ds-avatar">
+                                <a><img src="/public/img/duoshuo/268063.jpg" alt="gulangyu"></a>
+                            </div>
+                            <div class="ds-comment-body">
+                                <div class="ds-comment-header"><a class="ds-user-name ds-highlight">gulangyu</a><span class="this_ua browser Yandex">Yandex | 16.11.1.636</span><span class="this_ua platform Mac OS">Mac OS 10.11.6</span></div>
+                                <p>与其像我这样到处挖井不见泉，不如把一口井一直深挖下去</p>
+                                <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2016-12-26T18:00:15+08:00">2016年12月26日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="ds-post">
+                <div class="ds-post-self">
+                    <div class="ds-avatar">
+                        <a><img src="/public/img/duoshuo/江建宇.jpg" alt="江建宇"></a>
+                    </div>
+                    <div class="ds-comment-body">
+                        <div class="ds-comment-header"><a class="ds-user-name ds-highlight">江建宇</a><span class="this_ua browser Chrome">Chrome | 45.0.2454.101</span><span class="this_ua platform Windows">Windows 7</span></div>
+                        <p>赞</p>
+                        <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2016-12-24T15:39:15+08:00">2016年12月24日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                    </div>
+                </div>
+            </li>
+            <li class="ds-post">
+                <div class="ds-post-self">
+                    <div class="ds-avatar">
+                        <a><img src="/public/img/duoshuo/Crazy-L.jpg" alt="Crazy-L"></a>
+                    </div>
+                    <div class="ds-comment-body">
+                        <div class="ds-comment-header"><a class="ds-user-name ds-highlight">Crazy-L</a><span class="this_ua browser Chrome WebView">Chrome WebView | 55.0.2883.91</span><span class="this_ua platform Android">Android 7.0</span></div>
+                        <p>可以的 大兄弟</p>
+                        <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2016-12-24T00:09:26+08:00">2016年12月24日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+{% include comments.html %}
+{% include footer.html %}

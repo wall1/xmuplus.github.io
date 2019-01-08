@@ -1,0 +1,57 @@
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>{{ site.description }}</p>    
+  </div>
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+    <a class="sidebar-nav-item" href="/about/">About</a>
+    <a class="sidebar-nav-item" href="/books/">Books</a>
+    <a class="sidebar-nav-item" href="/archive/">Archive</a>
+    <!--Download-->
+    <a class="{{ site.random }}" title="{{ site.issue.num_small }}" href="https://capm.me/{{ site.random }}/TE_{{ site.newest }}/TE_{{ site.newest }}.pdf.zip" rel="nofollow">[True PDF] Download ({{ site.issue.size }} M)</a>
+    <a class="sidebar-nav-item" href="/donate/">觉得不错，赞助一下！</a>
+  </nav>
+  <div class="sidebar-item">
+    <ul class="center">
+      <a href="/donate/">
+      <img title="Thanks for your support!" src="https://paypal.b0.upaiyun.com/public/img/donate/DonateButton.png" width="83.63" height="23.63"></a>
+    </ul>
+
+    <p>
+    {{ site.issue.num_small }}.
+    </p>
+    <!--
+    <p>
+    &copy; {{ site.time | date: '%Y' }}. Created by <a href="/changelog/"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a> dl. 
+    <br/>&nbsp; &nbsp; All rights reserved.
+    </p>
+    -->
+  </div>
+</div>
+
+
+<style>
+.{{ site.random }} {
+    display: block;
+    padding: .5rem 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.{{ site.random }} {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.{{ site.random }}.active, a.{{ site.random }}:hover, a.{{ site.random }}:focus {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: transparent;
+}
+.{{ site.random }}.active, a.{{ site.random }}:hover, a.{{ site.random }}:focus {
+    background: #292929;
+    border-color: #363636;
+}
+@media (max-width:38em) {
+.{{ site.random }} {
+    padding-left: 1rem;
+}
+</style>

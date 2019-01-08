@@ -1,0 +1,136 @@
+---
+layout: epub
+---
+
+<div class="post">
+  <h1 style="margin-bottom: 1rem;">{{ page.title }}</h1>
+  <span class="post-date"><i class="fa fa-calendar""></i> {{ page.date | date_to_string }}</span>
+  {% include meta_info.html %} 
+  {{ content }}
+</div>
+
+
+<!--Related posts-->
+{% if site.related_posts.size > 0 %}
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    <!--related-->
+    {% for post in site.related_posts limit:3 %}
+      <li>
+        <h3>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | date_to_string }}</small>
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+
+<div class="ds-thread" id="ds-thread">
+    <div id="ds-reset">
+        <div class="ds-comments-info">
+            <div class="ds-sort"><a class="ds-order-desc ds-current">Newest</a><a class="ds-order-asc">Oldest</a><a class="ds-order-hot">Best</a></div>
+            <ul class="ds-comments-tabs">
+                <li class="ds-tab"><a class="ds-comments-tab-duoshuo ds-current" href="javascript:void(0);"><span class="ds-highlight">7</span> comments</a></li>
+            </ul>
+        </div>
+        <ul class="ds-comments">
+            <li class="ds-post">
+                <div class="ds-post-self">
+                    <div class="ds-avatar"><img src="/public/img/duoshuo/zhangpingfanjrj.gif" alt="zhangpingfanjrj"></div>
+                    <div class="ds-comment-body">
+                        <div class="ds-comment-header"><span class="ds-user-name">zhangpingfanjrj</span><span class="this_ua browser Chrome">Chrome | 45.0.2454.101</span><span class="this_ua platform Windows">Windows 10</span></div>
+                        <p>this one is really great~!</p>
+                        <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2017-03-04T17:27:40+08:00">3月4日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a><a class="ds-post-delete" href="javascript:void(0);"><span class="ds-icon ds-icon-delete"></span>delete</a></div>
+                    </div>
+                </div>
+            </li>
+            <li class="ds-post">
+                <div class="ds-post-self">
+                    <div class="ds-avatar">
+                        <a><img src="/public/img/duoshuo/308779.jpg" alt="mjystc"></a>
+                    </div>
+                    <div class="ds-comment-body">
+                        <div class="ds-comment-header"><a class="ds-user-name ds-highlight">mjystc</a><span class="this_ua browser Chrome">Chrome | 50.0.2661.75</span><span class="this_ua platform Mac OS">Mac OS 10.11.6</span></div>
+                        <p>excuse me, where is the pdf version in the upyun?</p>
+                        <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2017-01-08T19:52:40+08:00">1月8日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a><a class="ds-post-delete" href="javascript:void(0);"><span class="ds-icon ds-icon-delete"></span>delete</a></div>
+                    </div>
+                </div>
+                <ul class="ds-children">
+                    <li class="ds-post">
+                        <div class="ds-post-self">
+                            <div class="ds-avatar">
+                                <a><img src="/public/img/duoshuo/268063.jpg" alt="gulangyu"></a>
+                            </div>
+                            <div class="ds-comment-body">
+                                <div class="ds-comment-header"><a class="ds-user-name ds-highlight">gulangyu</a><span class="this_ua browser Chrome">Chrome | 52.0.2743.116</span><span class="this_ua platform Mac OS">Mac OS 10.11.6</span></div>
+                                <p>Click「Download (9M)」at the sidebar</p>
+                                <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2017-01-08T22:37:29+08:00">1月8日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a><a class="ds-post-delete" href="javascript:void(0);"><span class="ds-icon ds-icon-delete"></span>delete</a></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="ds-post">
+                <div class="ds-post-self">
+                    <div class="ds-avatar">
+                        <a><img src="/public/img/duoshuo/Younglyn.jpg" alt="Younglyn Chang"></a>
+                    </div>
+                    <div class="ds-comment-body">
+                        <div class="ds-comment-header"><a class="ds-user-name ds-highlight">Younglyn Chang</a><span class="this_ua browser Safari">Safari | 10.0.1</span><span class="this_ua platform Mac OS">Mac OS 10.12.1</span></div>
+                        <p>Finally, the latest issue come out. Thank you, dude.</p>
+                        <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2017-01-07T17:06:53+08:00">1月7日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a><a class="ds-post-delete" href="javascript:void(0);"><span class="ds-icon ds-icon-delete"></span>delete</a></div>
+                    </div>
+                </div>
+            </li>
+            <li class="ds-post">
+                <div class="ds-post-self">
+                    <div class="ds-avatar">
+                        <a><img src="/public/img/duoshuo/存聚.jpg" alt="存聚"></a>
+                    </div>
+                    <div class="ds-comment-body">
+                        <div class="ds-comment-header"><a class="ds-user-name ds-highlight">存聚</a><span class="this_ua browser Chrome">Chrome | 55.0.2883.87</span><span class="this_ua platform Windows">Windows 8.1</span></div>
+                        <p>楼主，能不能把pdf格式也链接到云盘，网站有时候下载不了，谢谢了</p>
+                        <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2016-12-25T12:22:07+08:00">2016年12月25日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a><a class="ds-post-delete" href="javascript:void(0);"><span class="ds-icon ds-icon-delete"></span>delete</a></div>
+                    </div>
+                </div>
+                <ul class="ds-children">
+                    <li class="ds-post">
+                        <div class="ds-post-self">
+                            <div class="ds-avatar">
+                                <a><img src="/public/img/duoshuo/268063.jpg" alt="gulangyu"></a>
+                            </div>
+                            <div class="ds-comment-body">
+                                <div class="ds-comment-header"><a class="ds-user-name ds-highlight">gulangyu</a><span class="this_ua browser Firefox">Firefox | 50.0</span><span class="this_ua platform Windows">Windows 7</span></div>
+                                <p>Good advice. I have transferred the pdf file from github to upyun. Now you can download it at a fast speed. Enjoy !</p>
+                                <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2016-12-25T14:52:49+08:00">2016年12月25日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a><a class="ds-post-delete" href="javascript:void(0);"><span class="ds-icon ds-icon-delete"></span>delete</a></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="ds-post">
+                <div class="ds-post-self">
+                    <div class="ds-avatar">
+                        <a><img src="/public/img/duoshuo/268063.jpg" alt="gulangyu"></a>
+                    </div>
+                    <div class="ds-comment-body">
+                        <div class="ds-comment-header"><a class="ds-user-name ds-highlight">gulangyu</a><span class="this_ua browser Chrome">Chrome | 52.0.2743.116</span><span class="this_ua platform Mac OS">Mac OS 10.11.6</span></div>
+                        <p>test</p>
+                        <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2016-12-01T16:44:00+08:00">2016年12月1日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a><a class="ds-post-delete" href="javascript:void(0);"><span class="ds-icon ds-icon-delete"></span>delete</a></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+    
+{% include comments.html %}
+{% include footer.html %}
+
+

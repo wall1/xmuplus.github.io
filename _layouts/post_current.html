@@ -1,0 +1,180 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 style="margin-bottom: 1rem;">{{ page.title }}</h1>
+  <span class="post-date"><i class="fa fa-calendar""></i> {{ page.date | date_to_string }}</span>
+
+  {% include meta_info.html %} 
+  {{ content }}
+</div>
+
+
+<!--Related posts-->
+{% if site.related_posts.size > 0 %}
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    <!--related-->
+    {% for post in site.related_posts limit:3 %}
+      <li>
+        <h3>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | date_to_string }}</small>
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+
+<div class="ds-thread" id="ds-thread">
+    <div id="ds-reset">
+        <div class="ds-comments-info">
+            <div class="ds-sort"><a class="ds-order-desc ds-current">Newest</a><a class="ds-order-asc">Oldest</a><a class="ds-order-hot">Best</a></div>
+            <ul class="ds-comments-tabs">
+                <li class="ds-tab"><a class="ds-comments-tab-duoshuo ds-current" href="javascript:void(0);"><span class="ds-highlight">23</span> comments</a></li>
+                <li class="ds-tab"><a class="ds-comments-tab-weibo" href="javascript:void(0);"><span class="ds-highlight">6</span>条新浪微博</a></li>
+            </ul>
+        </div>
+        <ul class="ds-comments">
+            <li class="ds-post">
+                <div class="ds-post-self">
+                    <div class="ds-avatar">
+                        <a><img src="/public/img/duoshuo/梁董.jpg" alt="梁春生"></a>
+                    </div>
+                    <div class="ds-comment-body">
+                        <div class="ds-comment-header"><a class="ds-user-name ds-highlight">梁董</a><span class="this_ua browser Chrome">Chrome | 49.0.2623.75</span><span class="this_ua platform Windows">Windows 8.1</span></div>
+                        <p>蛋哥厉害</p>
+                        <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2017-03-31T09:24:07+08:00">3月31日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                    </div>
+                </div>
+            </li>
+            <li class="ds-post">
+                <div class="ds-post-self">
+                    <div class="ds-avatar">
+                        <a><img src="/public/img/duoshuo/不哭aa.jpg" alt="不哭aa"></a>
+                    </div>
+                    <div class="ds-comment-body">
+                        <div class="ds-comment-header"><a class="ds-user-name ds-highlight">不哭aa</a><span class="this_ua browser Chrome">Chrome | 56.0.2924.87</span><span class="this_ua platform Windows">Windows 10</span></div>
+                        <p>谢谢你的分享，转了五块钱，穷学生钱不多。。。</p>
+                        <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2017-03-28T14:18:00+08:00">3月28日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                    </div>
+                </div>
+                <ul class="ds-children">
+                    <li class="ds-post">
+                        <div class="ds-post-self">
+                            <div class="ds-avatar">
+                                <a><img src="/public/img/duoshuo/268063.jpg" alt="gulangyu"></a>
+                            </div>
+                            <div class="ds-comment-body">
+                                <div class="ds-comment-header"><a class="ds-user-name ds-highlight">gulangyu</a><span class="this_ua browser Yandex">Yandex | 16.11.1.673</span><span class="this_ua platform Windows">Windows 7</span></div>
+                                <p>Thank you</p>
+                                <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2017-03-29T09:12:59+08:00">3月29日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="ds-post">
+                <div class="ds-post-self">
+                    <div class="ds-avatar">
+                        <a><img src="/public/img/duoshuo/李恩.png" alt="李恩"></a>
+                    </div>
+                    <div class="ds-comment-body">
+                        <div class="ds-comment-header"><a class="ds-user-name ds-highlight">李恩</a><span class="this_ua browser Maxthon">Maxthon | 5.0.2.1000</span><span class="this_ua platform Windows">Windows 7</span></div>
+                        <p>一定要捐款才能下载吗，左上侧栏那里的 DOWNLOAD 打开之后 404 啊</p>
+                        <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2017-03-24T00:13:56+08:00">3月24日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                    </div>
+                </div>
+                <ul class="ds-children">
+                    <li class="ds-post">
+                        <div class="ds-post-self">
+                            <div class="ds-avatar">
+                                <a><img src="/public/img/duoshuo/268063.jpg" alt="gulangyu"></a>
+                            </div>
+                            <div class="ds-comment-body">
+                                <div class="ds-comment-header"><a class="ds-user-name ds-highlight">gulangyu</a><span class="this_ua browser Firefox">Firefox | 51.0</span><span class="this_ua platform Mac OS">Mac OS 10.11</span></div>
+                                <p>看了下，是 Github 的设置问题，现在应该可以正常下载了</p>
+                                <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2017-03-24T19:33:16+08:00">3月24日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="ds-post">
+                        <div class="ds-post-self">
+                            <div class="ds-avatar">
+                                <a><img src="/public/img/duoshuo/李恩.png" alt="李恩"></a>
+                            </div>
+                            <div class="ds-comment-body">
+                                <div class="ds-comment-header"><a class="ds-user-name ds-highlight">李恩</a><span class="this_ua browser Maxthon">Maxthon | 5.0.2.1000</span><span class="this_ua platform Windows">Windows 7</span></div>
+                                <p><a class="ds-comment-context">回复 gulangyu: </a>的确可以下载了，多谢哈！！！！！！</p>
+                                <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2017-03-26T09:37:36+08:00">3月26日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="ds-post">
+                <div class="ds-post-self">
+                    <div class="ds-avatar">
+                        <a><img src="/public/img/duoshuo/卫晴.jpg" alt="卫晴"></a>
+                    </div>
+                    <div class="ds-comment-body">
+                        <div class="ds-comment-header"><a class="ds-user-name ds-highlight">卫晴</a><span class="this_ua browser Firefox">Firefox | 51.0</span><span class="this_ua platform Windows">Windows 7</span></div>
+                        <p>赞</p>
+                        <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2017-03-09T11:11:04+08:00">3月9日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                    </div>
+                </div>
+            </li>
+            <li class="ds-post">
+                <div class="ds-post-self">
+                    <div class="ds-avatar">
+                        <a><img src="/public/img/duoshuo/张睿娴.jpg" alt="张睿娴"></a>
+                    </div>
+                    <div class="ds-comment-body">
+                        <div class="ds-comment-header"><a class="ds-user-name ds-highlight">张睿娴</a><span class="this_ua browser Mobile Safari">Mobile Safari | 10.0</span><span class="this_ua platform iOS">iOS 10.2.1</span></div>
+                        <p>真是太棒了！英语爱好者的福音！真切地期待你的继续！祝越来越好！</p>
+                        <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2017-03-02T08:56:14+08:00">3月2日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                    </div>
+                </div>
+            </li>
+        
+           
+            
+            <li class="ds-post">
+                <div class="ds-post-self">
+                    <div class="ds-avatar">
+                        <a><img src="/public/img/duoshuo/亥酉申子.jpg" alt="亥酉申子"></a>
+                    </div>
+                    <div class="ds-comment-body">
+                        <div class="ds-comment-header"><a class="ds-user-name ds-highlight">亥酉申子</a><span class="this_ua browser WebKit">WebKit | 602.2.14</span><span class="this_ua platform iOS">iOS 10.1.1</span></div>
+                        <p> <img src="/public/img/duoshuo/geili_org.gif" alt="[给力]" class="ds-smiley"> </p>
+                        <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2016-12-07T00:28:00+08:00">2016年12月7日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                    </div>
+                </div>
+            </li>
+         
+            <li class="ds-post">
+                <div class="ds-post-self">
+                    <div class="ds-avatar">
+                        <a><img src="/public/img/duoshuo/经济学人_PLUS.jpg" alt="经济学人_PLUS"></a>
+                    </div>
+                    <div class="ds-comment-body">
+                        <div class="ds-comment-header"><a class="ds-user-name ds-highlight">经济学人_PLUS</a><span class="this_ua browser Firefox">Firefox | 47.0</span><span class="this_ua platform Fedora">Fedora undefined</span></div>
+                        <p>test on Fedora 24</p>
+                        <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2016-10-29T22:41:04+08:00">2016年10月29日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+    
+{% include comments.html %}
+{% include footer.html %}
+
+

@@ -1,0 +1,32 @@
+    <!--UAParser-->
+    <script src="https://paypal.b0.upaiyun.com/embed.js"></script>
+    <script src="https://paypal.b0.upaiyun.com/public/js/ua-parser/ua-parser.min.js"></script>
+    <!--duoshuo_ua-->
+    <script type="text/javascript">
+    if (typeof DUOSHUO !== 'undefined')hookDUOSHUO_tp();
+    function hookDUOSHUO_tp(){
+    var _D_post=DUOSHUO.templates.post
+    DUOSHUO.templates.post=function (e,t){
+      var rs=_D_post(e,t);
+      if(e.post.agent&&/^Mozilla/.test(e.post.agent))rs=rs.replace(/<\/div><p>/,show_ua(e.post.agent)+'</div><p>');
+      return rs;}
+    }
+    function show_ua(string){
+    console.log(string);
+    $.ua.set(string);
+    var sua=$.ua;
+    if(sua.os.version=='x86_64')sua.os.version='x64';
+    return '<span class="this_ua browser '+sua.browser.name+'">'+sua.browser.name+' | '+sua.browser.version+'</span>'+'<span class="this_ua platform '+sua.os.name+'">'+sua.os.name+' '+sua.os.version+'</span>';
+    }
+    </script>
+
+
+    <!-- Markdown -->
+    <script type="text/javascript">  
+        $(document).ready(function() {  
+            //为超链接加上target='_blank'属性  
+            $('a[href^="http"]').each(function() {  
+                $(this).attr('target', '_blank');  
+            });  
+        });  
+    </script> 

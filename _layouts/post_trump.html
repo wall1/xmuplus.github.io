@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 style="margin-bottom: 1rem;">{{ page.title }}</h1>
+  <span class="post-date"><i class="fa fa-calendar""></i> {{ page.date | date_to_string }}</span>
+
+  {% include meta_info.html %} 
+  {{ content }}
+</div>
+
+
+<!--Related posts-->
+{% if site.related_posts.size > 0 %}
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    <!--related-->
+    {% for post in site.related_posts limit:3 %}
+      <li>
+        <h3>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | date_to_string }}</small>
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+
+<div class="ds-thread" id="ds-thread">
+    <div id="ds-reset">
+        <div class="ds-comments-info">
+            <div class="ds-sort"><a class="ds-order-desc ds-current">Newest</a><a class="ds-order-asc">Oldest</a><a class="ds-order-hot">Best</a></div>
+            <ul class="ds-comments-tabs">
+                <li class="ds-tab"><a class="ds-comments-tab-duoshuo ds-current" href="javascript:void(0);"><span class="ds-highlight">2</span> comments</a></li>
+            </ul>
+        </div>
+        <ul class="ds-comments">
+            <li class="ds-post">
+                <div class="ds-post-self">
+                    <div class="ds-avatar">
+                        <a><img src="/public/img/duoshuo/nothing.jpg" alt="nothing"></a>
+                    </div>
+                    <div class="ds-comment-body">
+                        <div class="ds-comment-header"><a class="ds-user-name ds-highlight">nothing</a><span class="this_ua browser Firefox">Firefox | 51.0</span><span class="this_ua platform Windows">Windows 10</span></div>
+                        <p>Hello, thanks for your sharing. Could you please inform me what the Baidu Yun's password is?</p>
+                        <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2017-03-15T09:59:24+08:00">3月15日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                    </div>
+                </div>
+                <ul class="ds-children">
+                    <li class="ds-post">
+                        <div class="ds-post-self">
+                            <div class="ds-avatar">
+                                <a><img src="/public/img/duoshuo/268063.jpg" alt="gulangyu"></a>
+                            </div>
+                            <div class="ds-comment-body">
+                                <div class="ds-comment-header"><a class="ds-user-name ds-highlight">gulangyu</a><span class="this_ua browser Firefox">Firefox | 52.0</span><span class="this_ua platform Mac OS">Mac OS 10.11</span></div>
+                                <p>Password (four characters in red color) is shown at the right side of the download link.</p>
+                                <div class="ds-comment-footer ds-comment-actions"><span class="ds-time" datetime="2017-03-15T14:15:40+08:00">3月15日</span><a class="ds-post-reply" href="javascript:void(0);"><span class="ds-icon ds-icon-reply"></span>reply</a><a class="ds-post-likes" href="javascript:void(0);"><span class="ds-icon ds-icon-like"></span>upvote</a><a class="ds-post-repost" href="javascript:void(0);"><span class="ds-icon ds-icon-share"></span>share</a><a class="ds-post-report" href="javascript:void(0);"><span class="ds-icon ds-icon-report"></span>report</a></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+
+    
+{% include comments.html %}
+{% include footer.html %}
+
+
