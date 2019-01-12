@@ -10,7 +10,7 @@ permalink: /current-issue/
 	<code><b>Pr</b><i class="fa fa-linkedin-square" aria-hidden="true"></i><b>t</b> <b>Edi</b><i class="fa fa-tumblr-square" aria-hidden="true"></i><b>ion</b></code>: {{ site.issue.desc}}
 </div>
 
-<header class="xmas snow">
+<header class="xmas">
 <div class="cover upload">
 <img src="/public/img/the-economist/img_{{ site.newest }}.jpg" />
 </div>
