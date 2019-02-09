@@ -5,17 +5,22 @@ permalink: /books/
 ---
 <h2 style="margin-top: 3rem; font-size: 1.8em;">Books I read recently <i title="知无央" class="fa fa-slideshare"></i></h2>
 
-### <span style="color:#4885ed">2</span><span style="color:#db3236">0</span><span style="color:#3cba54">1</span><span style="color:#4885ed">8</span>
+### <span style="color:#4885ed">2</span><span style="color:#3cba54">0</span><span style="color:#4885ed">1</span><span style="color:#db3236">9</span>
 
-* Sep 27 - 『通往奴役之路』 <span class="author">- Friedrich Hayek</span> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+* Feb 09 - 『原则』 <span class="author">- Ray Dalio</span> <i class="fa fa-star"></i><i class="fa fa-star"></i>
+
+* Feb 07 - 『通往奴役之路』 <span class="author">- Friedrich Hayek</span> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
+
+
+### <span style="color:#4885ed">2</span><span style="color:#db3236">0</span><span style="color:#3cba54">1</span><span style="color:#4885ed">8</span>
 
 * Sep 1 - 『当我谈跑步时我谈些什么』 <span class="author">- 村上 春樹</span> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 
 * Apr 14 - 『君主论』 <span class="author">- Niccolò Machiavelli</span> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 
-* Mar 25 - 『兄弟』 <span class="author">- 余华</span> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+* Mar 25 - 『兄弟』 <span class="author">- 余华</span> <i class="fa fa-star"></i><i class="fa fa-star"></i>
 
-* Mar 16 - 『中国大历史』 <span class="author">- 黄仁宇</span> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+* Mar 16 - 『中国大历史』 <span class="author">- 黄仁宇</span> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 
 * Feb 26 - 『中国历代政治得失』 <span class="author">- 钱穆</span> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 
