@@ -24,7 +24,7 @@ permalink: /the-first-half-of-2018/
 
 和前两年一样，我把 2018 年全年（2018.1.6 - 2018.12.22）出版的经济学人整理了一下，最后整理成两个压缩包。一个是 51 期高清 PDF； 另一个是 51 期高清 PDF+EPUB+MOBI。
 
-<i class="fa fa-star" style="color: #f4c20d;font-size: 95%;"></i> **`1) 注: 本站合集中 2016.1.2 - 2018.11.10 的 PDF 均为高清 PDF，英文称 "True PDF" (即: 可以直接完美复制上面的单词语句)。其中，只有 2018.7.7 - 2018.7.28 的四期 PDF 为扫描版 PDF。`**
+<i class="fa fa-star" style="color: #f4c20d;font-size: 95%;"></i> **`1) 注: 本站合集中 2016.1.2 到最近一期的 PDF 均为高清 PDF，英文称 "True PDF" (即: 可以直接完美复制上面的单词语句)。其中，只有 2018.7.7 - 2018.7.28 的四期 PDF 为扫描版 PDF。`**
 
 <!--
 <p style="color:#3cba54; font-size: 80%;">Update: 增加 10 月份开始的，更新至 2018.10.28 期，共 43 期。<br/>
@@ -42,8 +42,8 @@ permalink: /the-first-half-of-2018/
 
 Q1: 关于定价<br/>
 - <span style="color:#4885ed;">2</span><span style="color:#3cba54">0</span><span style="color:#4885ed">1</span><span style="color:#db3236">8</span> <span style="color:#4885ed">+</span> <span style="color:#4885ed;">2</span><span style="color:#3cba54">0</span><span style="color:#4885ed">1</span><span style="color:#db3236">9</span>
-    - <span class="price">True PDF (Only) <span style="background:#B4D5FE;">2018 + 2019 (1.5-2.9)</span> (CNY 60.19)</span>
-    - <span class="price">PDF+Epub+Mobi <span style="background:#B4D5FE;">2018 + 2019 (1.5-2.9)</span> (CNY 90.19)</span>
+    - <span class="price">True PDF (Only) <span style="background:#B4D5FE;">2018 + 2019 (1.5-2.23)</span> (CNY 60.19)</span>
+    - <span class="price">PDF+Epub+Mobi <span style="background:#B4D5FE;">2018 + 2019 (1.5-2.23)</span> (CNY 90.19)</span>
 
 - <span style="color:#4885ed;">2</span><span style="color:#db3236">0</span><span style="color:#3cba54">1</span><span style="color:#4885ed">8</span>
     - <span class="price">True PDF (Only) 2018 (CNY 50.18)</span>
