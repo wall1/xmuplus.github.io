@@ -15,7 +15,7 @@
     <url>
       <loc>https://xmuplus.github.io/current-issue/</loc>
       
-        <lastmod>2019-03-16T00:00:00+08:00</lastmod>
+        <lastmod>2019-03-30T00:00:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -30,7 +30,37 @@
     <url>
       <loc>https://xmuplus.github.io/epub-mobi/</loc>
       
-        <lastmod>2019-03-15T00:00:00+08:00</lastmod>
+        <lastmod>2019-03-29T00:00:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/2019/03/22/Mar-22nd-2019/</loc>
+      
+        <lastmod>2019-03-22T00:00:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/2019/03/16/Mar-16th-2019/</loc>
+      
+        <lastmod>2019-03-16T00:00:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2281,7 +2311,7 @@
     <url>
       <loc>https://xmuplus.github.io/404.html</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2296,7 +2326,7 @@
     <url>
       <loc>https://xmuplus.github.io/about/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2311,7 +2341,7 @@
     <url>
       <loc>https://xmuplus.github.io/archive/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2326,7 +2356,7 @@
     <url>
       <loc>https://xmuplus.github.io/books/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2341,7 +2371,7 @@
     <url>
       <loc>https://xmuplus.github.io/changelog/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2356,7 +2386,7 @@
     <url>
       <loc>https://xmuplus.github.io/donate/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2371,7 +2401,7 @@
     <url>
       <loc>https://xmuplus.github.io/google-code-prettify/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2386,7 +2416,7 @@
     <url>
       <loc>https://xmuplus.github.io/googlemap/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2401,7 +2431,7 @@
     <url>
       <loc>https://xmuplus.github.io/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2416,7 +2446,7 @@
     <url>
       <loc>https://xmuplus.github.io/mac-dd-command/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2431,7 +2461,7 @@
     <url>
       <loc>https://xmuplus.github.io/manjaro-arm/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2446,7 +2476,7 @@
     <url>
       <loc>https://xmuplus.github.io/newspaper/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2461,7 +2491,7 @@
     <url>
       <loc>https://xmuplus.github.io/search</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2478,7 +2508,7 @@
     <url>
       <loc>https://xmuplus.github.io/the-first-half-of-2016/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2493,7 +2523,7 @@
     <url>
       <loc>https://xmuplus.github.io/the-first-half-of-2017/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2508,7 +2538,7 @@
     <url>
       <loc>https://xmuplus.github.io/the-first-half-of-2018/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2523,7 +2553,7 @@
     <url>
       <loc>https://xmuplus.github.io/ubuntu-16.04-lts/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2538,7 +2568,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-2/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2553,7 +2583,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-3/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2568,7 +2598,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-4/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2583,7 +2613,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-5/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2598,7 +2628,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-6/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2613,7 +2643,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-7/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2628,7 +2658,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-8/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2643,7 +2673,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-9/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2658,7 +2688,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-10/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2673,7 +2703,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-11/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2688,7 +2718,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-12/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2703,7 +2733,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-13/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2718,7 +2748,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-14/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2733,7 +2763,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-15/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2748,7 +2778,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-16/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2763,7 +2793,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-17/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2778,7 +2808,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-18/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2793,7 +2823,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-19/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2808,7 +2838,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-20/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2823,7 +2853,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-21/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2838,7 +2868,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-22/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2853,7 +2883,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-23/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2868,7 +2898,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-24/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2883,7 +2913,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-25/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2898,7 +2928,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-26/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2913,7 +2943,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-27/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2928,7 +2958,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-28/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2943,7 +2973,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-29/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2958,7 +2988,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-30/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -2973,7 +3003,7 @@
     <url>
       <loc>https://xmuplus.github.io/page-31/</loc>
       
-        <lastmod>2019-03-18T09:41:09+08:00</lastmod>
+        <lastmod>2019-04-01T11:22:09+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
