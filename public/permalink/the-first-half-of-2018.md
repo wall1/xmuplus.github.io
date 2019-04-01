@@ -42,8 +42,8 @@ permalink: /the-first-half-of-2018/
 
 Q1: 关于定价<br/>
 - <span style="color:#4885ed;">2</span><span style="color:#3cba54">0</span><span style="color:#4885ed">1</span><span style="color:#db3236">8</span> <span style="color:#4885ed">+</span> <span style="color:#4885ed;">2</span><span style="color:#3cba54">0</span><span style="color:#4885ed">1</span><span style="color:#db3236">9</span>
-    - <span class="price">True PDF (Only) <span style="background:#B4D5FE;">2018 + 2019 (1.5-3.16)</span> (CNY 60.19)</span>
-    - <span class="price">PDF+Epub+Mobi <span style="background:#B4D5FE;">2018 + 2019 (1.5-3.16)</span> (CNY 90.19)</span>
+    - <span class="price">True PDF (Only) <span style="background:#B4D5FE;">2018 + 2019 (1.5-3.30)</span> (CNY 60.19)</span>
+    - <span class="price">PDF+Epub+Mobi <span style="background:#B4D5FE;">2018 + 2019 (1.5-3.30)</span> (CNY 90.19)</span>
 
 - <span style="color:#4885ed;">2</span><span style="color:#db3236">0</span><span style="color:#3cba54">1</span><span style="color:#4885ed">8</span>
     - <span class="price">True PDF (Only) 2018 (CNY 50.18)</span>
