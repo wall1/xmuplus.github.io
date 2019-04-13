@@ -7,7 +7,9 @@ permalink: /books/
 
 ### <span style="color:#4885ed">2</span><span style="color:#3cba54">0</span><span style="color:#4885ed">1</span><span style="color:#db3236">9</span>
 
-* Feb 10 - 『小偷家族』 <span class="author">- 是枝裕和</span> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+* Apr 4 - 『石油先生』 <span class="author">- Ali Al-Naimi</span> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
+
+* Feb 10 - 『小偷家族』 <span class="author">- 是枝裕和</span> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
 
 * Feb 09 - 『原则』 <span class="author">- Ray Dalio</span> <i class="fa fa-star"></i><i class="fa fa-star"></i>
 
